@@ -222,7 +222,7 @@ section{
     font-size: 6rem;
     text-transform: uppercase;
     /* color:black; */
-    color: rgb(88, 88, 162);
+    color:var(--main-color);
 }
 
 .home .content p{
