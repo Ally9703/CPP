@@ -589,7 +589,7 @@ section{
 
 .footer .credit h2{
     color:var(--main-color);
-    text-transform: none;
+    text-transform:none;
 }
 .footer .credit span a{
     color:var(--main-color);
