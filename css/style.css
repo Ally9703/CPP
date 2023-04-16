@@ -223,6 +223,7 @@ section{
     text-transform: uppercase;
     /* color:black; */
     color:var(--main-color);
+    
 }
 
 .home .content p{
@@ -233,11 +234,20 @@ section{
     color:rgb(107, 74, 74);
 }
 
+
 .about .row{
     display: flex;
     align-items: center;
-    background:var(--black);
+    /* background:var(--black); */
     flex-wrap: wrap;
+    /* border:1px solid red; */
+    margin-top: 10px;
+}
+
+.row .content{
+    border-radius:14px;
+    margin: 10px;
+    background:var(--black);
 }
 
 .about .row .image{
