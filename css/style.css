@@ -616,6 +616,10 @@ section{
         padding:2rem;
     }
 
+    .footer h2{
+        font-size: 2rem;
+    }
+
 }
 
 @media (max-width:768px){
