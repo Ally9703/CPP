@@ -208,7 +208,7 @@ section{
 .home{
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: start;
     background:url(../img/js.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -657,7 +657,7 @@ section{
 
     .home{
         background-position: left;
-        justify-content: center;
+        /* justify-content: center; */
         /* text-align: center; */
     }
 
