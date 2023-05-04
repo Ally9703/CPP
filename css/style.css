@@ -583,6 +583,12 @@ section{
     grid-auto-rows: minmax(70px, auto);
     gap: 30px;
 }
+
+#projet-grille1{
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(20px, auto);
+    gap: 10px;
+}
 .projet{
     background: black;
     border-radius: 5px;
