@@ -215,8 +215,14 @@ section{
     background-position: center;
 }
 
-.home .content{
-    /* max-width: 60rem; */
+.content p a {
+    color : white;
+    border : 1px solid blue;
+    padding: 2px;
+}
+.content p a:hover{
+    color: black;
+    background:white;
 }
 
 .home .content h3{
@@ -259,6 +265,7 @@ section{
     margin: 10px;
     background:var(--black);
 }
+
 
 .about .row .image{
     flex:1 1 45rem;
